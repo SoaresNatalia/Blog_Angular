@@ -1,0 +1,22 @@
+header{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.artigo{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.artigo-main{
+  margin-top: 30px;
+  margin-right: 15px;
+}
+
+.artigo-menores{
+  margin-top: 60px;
+}
+
+
+
