@@ -5,11 +5,13 @@
   </div>
 
   <div class="titulo">
-  <a href="#"><h1>{{tituloBig}}</h1></a>
+  <a [routerLink]="['conteudo', id]"><h1>{{tituloBig}}</h1></a>
   </div>
 
   <div class="texto">
-    <p>{{textoBig}}</p>
+    <a [routerLink]="['conteudo', id]">
+      <p>{{textoBig}}</p>
+    </a>
   </div>
 
 </div>
