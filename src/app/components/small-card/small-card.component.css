@@ -1,11 +1,11 @@
 .container_smallCard{
 
   width: 700px;
-  margin-bottom: 15px;
+
 }
 
 .container_smallCard > hr{
-  margin-top: 10px;
+
 }
 
 .conteudo-card{
@@ -14,9 +14,9 @@
 }
 
 .imagem-small > img{
-  width: 200px;
+  width: 250px;
   min-width: 200px;
-  height: 200px;
+  height: 300px;
   margin-right: 20px;
 }
 

@@ -1,5 +1,8 @@
 header{
-  margin-top: 20px;
   display: flex;
   justify-content: center;
+}
+
+header > menu-bar{
+  width: 100%;
 }

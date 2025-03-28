@@ -39,10 +39,13 @@ export class ConteudoComponent {
     //result é um vetor na posição 0 que tem as informações
     const result = dataFake.filter( artigo => artigo.id == id)[0]
 
+    if(result!){
+      this.fotoConteudo = result.foto
+      this.tituloCont = result.titulo
+      this.textoCont = result.texto
 
-    this.fotoConteudo = result.foto
-    this.tituloCont = result.titulo
-    this.textoCont = result.texto
+    }
+
 
 
   }

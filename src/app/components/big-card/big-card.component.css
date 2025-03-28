@@ -1,4 +1,6 @@
 .container_big-card{
+  margin-top: 20px;
+
   width: 500px;
   height: 500px;
 
@@ -12,8 +14,8 @@
 }
 
 .imagem > img {
-  width: 100%;
-  min-width: 300px;
+  width: 300px;
+  height: 360px;
 }
 
 .titulo{

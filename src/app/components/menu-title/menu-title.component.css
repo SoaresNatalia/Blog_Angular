@@ -1,18 +1,20 @@
 .container-title{
-  color: white
+  border: 5px rgb(249, 92, 239);
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .container-title > h1{
-  margin-top: 15px;
-  margin-bottom: 15px;
+
+  color: rgb(251, 127, 243);
   font-size: 150px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  text-transform: uppercaseng;
+  text-transform: uppercase;
   display: flex;
   justify-content: center;
+
+
 }
 
-.container-title > hr{
-  margin-top: 20px;
-  margin-bottom: 10px;
-}
+
+

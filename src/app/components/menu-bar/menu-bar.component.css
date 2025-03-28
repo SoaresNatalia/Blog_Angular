@@ -1,11 +1,14 @@
-
-
-.container_menu > ul{
+.container-menu{
   display: flex;
-  flex-direction: row;
+  justify-content: center;
+  height: 35px;
 }
 
-.container_menu > ul > li{
-  margin-right: 15px;
-  list-style: none;
+* {
+  background-color: rgb(180, 106, 209);
+}
+
+a{
+  margin-top: 10px;
+  margin-left: 20px;
 }
